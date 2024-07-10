@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime
 
 # Initialize the Arduino board
-board = pyfirmata2.Arduino('COM3')
+board = pyfirmata2.Arduino('COM4')
 ledPin = board.get_pin('d:13:o')
 
 # Accessing Camera
