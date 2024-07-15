@@ -11,7 +11,7 @@ board = pyfirmata2.Arduino('COM4')
 ledPin = board.get_pin('d:13:o')
 
 # Accessing Camera
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(2)
 
 # Load Known faces
 jai_image = face_recognition.load_image_file("Faces/jai.jpg")
